@@ -10,7 +10,7 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
 ########################################################################
 
 ########################################################################
-# TODO: 2.
+# DONE: 2.
 #   You should have RUN the  m5e_loopy_turtles  module and READ its code.
 #   (Do so now if you have not already done so.)
 #
@@ -29,21 +29,17 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
 #
 ########################################################################
 
-import rosegraphics as  rg
+import rosegraphics as rg
 
 window = rg.TurtleWindow()
 
 leo = rg.SimpleTurtle('turtle')
 leo.pen = rg.Pen('blue', 5)
-leo.speed = 50
+leo.speed = 11
 
 raph = rg.SimpleTurtle('turtle')
 raph.pen = rg.Pen('red', 5)
-raph.speed = 50
-
-mike = Leo = rg.SimpleTurtle('turtle')
-mike.pen = rg.Pen('orange', 5)
-mike.speed = 50
+raph.speed = 11
 
 size = 100
 
