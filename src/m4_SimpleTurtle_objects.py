@@ -10,11 +10,11 @@ Also:
   -- ASSIGNING a VALUE to a NAME (VARIABLE).
 
 Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
-         Aaron Wilkin, their colleagues, and PUT_YOUR_NAME_HERE.
+         Aaron Wilkin, their colleagues, and Samuel VanDenburgh.
 """
 ###############################################################################
 #
-# TODO: 1.
+# DONE: 1.
 #   Yes, that means for YOU to DO things per the following instructions:
 #
 #   On Line 13 above, replace  PUT_YOUR_NAME_HERE  with your OWN name.
@@ -29,7 +29,7 @@ import rosegraphics as rg
 
 ###############################################################################
 #
-# TODO: 2.
+# DONE: 2.
 #   Allow this module to use the  rosegraphics.py  module by marking the
 #     src
 #   folder in this project as a "Sources Root", as follows:
@@ -48,7 +48,7 @@ import rosegraphics as rg
 
 ###############################################################################
 #
-# TODO: 3.
+# DONE: 3.
 #   Run this module.  A window will pop up and Turtles will move around.
 #   After the Turtles stop moving,
 #      ** click anywhere in the window to close the window **.
@@ -116,7 +116,7 @@ natasha.go_to(rg.Point(-100, 200))
 
 ###############################################################################
 #
-# TODO: 4.
+# DONE: 4.
 #   Add a few more lines of your own code to make one of the existing
 #   SimpleTurtles move some more and/or have different characteristics.
 #
@@ -127,9 +127,17 @@ natasha.go_to(rg.Point(-100, 200))
 #
 ###############################################################################
 
+boris.pen = rg.Pen('green', 10)
+boris.right(90)
+boris.forward(20)
+boris.right(90)
+boris.forward(20)
+boris.right(90)
+boris.forward(20)
+
 ###############################################################################
 #
-# TODO: 5.
+# DONE: 5.
 #   The above code  CONSTRUCTS  two SimpleTurtle objects
 #   and gives those objects NAMES:
 #       boris    natasha
@@ -138,7 +146,7 @@ natasha.go_to(rg.Point(-100, 200))
 #   naming it whatever you want.  Names cannot have spaces or special
 #   characters, but they can have digits and underscores, e.g.
 #      this_1_has
-#
+
 #   STYLE RULE: Your names should always begin with a LOWER_CASE letter.
 #   So   mary   is OK   but   Mary   is NOT OK.
 #
@@ -154,9 +162,16 @@ natasha.go_to(rg.Point(-100, 200))
 #
 ###############################################################################
 
+rebecca = rg.SimpleTurtle('turtle')
+rebecca.pen = rg.Pen('yellow', 20)
+rebecca.speed = 8
+rebecca.forward(200)
+rebecca.left(40)
+rebecca.backward(100)
+
 ###############################################################################
 #
-# TODO: 6.
+# DONE: 6.
 #   Ensure that no blue bars on the scrollbar-thing to the right remain.
 #   Run one more time to be sure that all is still OK.
 #
